@@ -15,8 +15,6 @@ The goals / steps of this project are the following:
 * Run your pipeline on a video stream (start with the test_video.mp4 and later implement on full project_video.mp4) and create a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.
 * Estimate a bounding box for vehicles detected.
 
-
-```python
 [//]: # (Image References)
 
 [im01]: ./output_images/car_visualize.png
@@ -42,7 +40,6 @@ The goals / steps of this project are the following:
 [im21]: ./output_images/applying_labels.png
 [im22]: ./output_images/labelled_img.png
 
-```
 
 [//]: # (Image References)
 
