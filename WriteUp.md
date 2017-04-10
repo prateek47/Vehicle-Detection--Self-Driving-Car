@@ -105,8 +105,6 @@ A snapshot of different configurations are shown below:
 
 Using the above configuration and features, I train a linear support vector machine (SVM) classifier, other models can also be tried, but currently I am focussing on "Linear SVC".The output is stored in a dataframe 'df_stats'. 
 
-![alt tag][im05]
-
 I give importance to both the time taken for training and Accuracy, with higher importance to Accuracy. Therefore, Below is the snapshot of top 15 values of Acuracy with their Training times. The code for this question is written under question 3 in `Vehicle Detection..Project 5.ipynb` cell 10-13.
 
 ![alt tag][im06]
