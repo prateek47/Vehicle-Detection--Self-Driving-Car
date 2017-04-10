@@ -78,9 +78,10 @@ All of the code for the project is contained in the Jupyter notebook Vehicle Det
 
 I loaded all the images provided from `vehicle` and `non-vehicle` folders by Udacity. I loaded all the images from these folder and visualize a random sample of car and non-car imagesbegan by loading all of the vehicle and non-vehicle image paths from the provided dataset. The figure below shows a random sample of images from both classes of the dataset.
 The code for this part is present in `Vehicle Detection..Project 5.ipynb` cell 3-5
-![alt tag][im01]
 
 ![alt tag][im01]
+
+![alt tag][im02]
 
 For extracting HOG features from an image, I defined a function `get_hog_features` using the code provided in the Udacity lectures. The code is present under the section *`Functions`* and visulized in section *`Histogram of Oriented Gradients (HOG)`* in `Vehicle Detection..Project 5.ipynb` cell 2 and 6. 
 The figure below shows a comparison of a car and a non car image chosen at random and there associated histogram of oriented gradients.
