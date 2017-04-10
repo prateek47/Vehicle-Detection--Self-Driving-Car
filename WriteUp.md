@@ -39,26 +39,14 @@ The goals / steps of this project are the following:
 [im20]: ./output_images/heatmap_threshold.png
 [im21]: ./output_images/applying_labels.png
 [im22]: ./output_images/labelled_img.png
-
-
-[//]: # (Image References)
-
-[image1]: ./output_images/01_random_data_grid.png
-[image2]: ./output_images/02_hog_visualization.png
-[image3]: ./output_images/03_detections.png
-[image4]: ./output_images/04_boxes_1.png
-[image5]: ./output_images/05_boxes_2.png
-[image6]: ./output_images/06_boxes_3.png
-[image6a]: ./output_images/06a_boxes_4.png
-[image7]: ./output_images/07_all_detections.png
-[image8]: ./output_images/08_heatmap.png
-[image9]: ./output_images/09_heatmap_threshold.png
-[image10]: ./output_images/10_label_heatmap.png
-[image11]: ./output_images/11_final_boxes.png
-[image12]: ./output_images/12_all_test_detects.png
-[video1]: ./test_video_out.mp4
-[video2]: ./test_video_out_2.mp4
-[video3]: ./project_video_out.mp4
+[im23]: ./output_images/test_config50.png
+[im24]: ./output_images/test_config50_2.png
+[im25]: ./output_images/test_config13.png
+[im26]: ./output_images/test_config13_2.png
+[im27]: ./output_images/test_config49.png
+[im28]: ./output_images/test_config49_2.png
+[im29]: ./output_images/test_config61.png
+[im30]: ./output_images/test_config61_2.png
 
 
 ### Writeup / README
@@ -216,17 +204,21 @@ Passing all the images in the test folder to a pipeline function `"process_image
                                    Linear SVM model with Parameter Configuration 50
                 
 ![alt tag][im23]
+![alt tag][im24]
                 
                                    Linear SVM model with Parameter Configuration 13
                                                                       
-![alt tag][im24]
+![alt tag][im25]
+![alt tag][im26]
                 
                                    Linear SVM model with Parameter Configuration 49
                                                                                                          
-![alt tag][im25]                                                                                                         
-                                                                                                                                                          Linear SVM model with Parameter Configuration 61
+![alt tag][im27]                                                                                                         
+![alt tag][im28]
+                                   Linear SVM model with Parameter Configuration 61
 
-![alt tag][im26]
+![alt tag][im29]
+![alt tag][im30]
 
 The final implementations with Configuration 61 and Configuration 50 performs very well, identifying the near-field vehicles in each of the images. ***But for the purpose of the implementation I am going with config 50.***
 
